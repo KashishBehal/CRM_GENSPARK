@@ -14,8 +14,7 @@ app.use(morgan("tiny"));
 app.use(bodyparser.urlencoded({extended:true}));
 app.use(bodyparser.json());
 const port=process.env.PORT ||3001;
-// const userRouter=require("./src/routers/userr");
-// app.use("/user" , userRouter);
+
 const TicketRouter=require("./src/routers/ticket.router");
 app.use("/ticket" , TicketRouter);
 app.use("/" ,(req , res ,next)=>{res.json({message:"HI There"})});
@@ -32,7 +31,7 @@ const client = new MongoClient(uri, {
     strict: true,
     deprecationErrors: true,
   },
-  connectTimeoutMS: 30000, // 30 seconds
+  connectTimeoutMS: 30000, 
   socketTimeoutMS: 30000,
 });
 
