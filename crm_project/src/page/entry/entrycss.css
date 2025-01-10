@@ -1,0 +1,13 @@
+.entry-page {
+ 
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.a{
+    width: 50px;
+    height: 500px;
+    display: flex;
+}

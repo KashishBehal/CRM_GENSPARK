@@ -1,0 +1,12 @@
+.or{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-right: 35px;
+   padding: 10px;
+}
+.gg{
+    height: 65px;
+    width: 75%;
+    margin-left: 45px;
+}

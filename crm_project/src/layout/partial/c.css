@@ -1,0 +1,50 @@
+/* Card Container */
+.dashboard-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    width: 600px;
+  }
+  
+  /* Card Hover Effect */
+  .dashboard-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Card Icon */
+  .dashboard-card-icon {
+    font-size: 40px;
+    margin-right: 15px;
+  }
+  
+  /* Card Content */
+  .dashboard-card-content h3 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .dashboard-card-content p {
+    font-size: 24px;
+    margin: 5px 0 0;
+    font-weight: bold;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .dashboard-card {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .dashboard-card-icon {
+      margin: 0 0 10px 0;
+    }
+  }
+  

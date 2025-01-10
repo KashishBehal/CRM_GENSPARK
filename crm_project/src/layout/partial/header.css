@@ -1,0 +1,47 @@
+
+.navbar{
+    height: 100px;
+    background: linear-gradient(180deg  , #080818 , #10102f);
+    .wrapper{
+        max-width: 1366px;
+        margin-left: 120px;
+        margin-top: 20px;
+       
+   display: flex;
+   flex-direction: row;
+   gap: 1000px;
+    font-size: 30px;
+    color: white;
+
+    
+    height: 100px;
+    @include mobile{
+       justify-content: flex-end;
+       padding: 20px;
+
+    }
+    
+
+
+    span{
+        font-weight: bold;
+        @include mobile{
+            display: none;
+        }
+        
+    }
+    .social{
+        display: flex;
+        flex-direction: row;
+        margin-left:100px;
+        gap: 80px;
+       img{
+        height:25px;
+        
+       }
+    }
+    }
+    a{
+        color: white;
+    }
+}

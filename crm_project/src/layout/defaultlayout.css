@@ -1,0 +1,20 @@
+.default-layout{
+    display: grid;
+    grid-template-rows: 80px auto ;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}
+header{
+    grid-area: header;
+}
+main{
+    grid-area: main;
+    min-height: 72vh;
+}
+footer{
+    grid-area:footer;
+   
+
+}

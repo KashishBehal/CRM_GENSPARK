@@ -1,0 +1,92 @@
+.dashboard-content{
+    background: linear-gradient(180deg  , #0c0c1d , #111132);
+    width: 100%;
+    background-color: white;
+}
+.action-buttons{
+    background: linear-gradient(180deg  , #0c0c1d , #111132);
+  button{
+    color: #0c0c1d;
+    background-color: #9189bf;
+    width: 150px;
+    height: 70px;
+    border-radius: 50px;
+   box-shadow: 100px rgb(241, 246, 242);
+   margin-left: 550px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+
+   
+  }
+}
+.ticket-summary{
+    background: linear-gradient(180deg  , #0c0c1d , #111132);
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: -10px;
+    color: white;
+    .ticket-card{
+
+margin-left: 850px;
+display: flex;
+flex-direction: row;
+margin-top: 10px;
+p{
+    border: 2px solid rgb(199, 168, 168);
+    margin-left: 50px;
+    margin-top: 5px;
+    padding: 5px;
+    width: 100px;
+    padding-left: 40px;
+    border-radius: 50px;
+}
+    }
+    
+}
+
+.recent-title{
+ 
+    height: 80px;
+    margin-top: 5px;
+    color: rgb(169, 139, 213);
+    font-size: 40px;
+   
+}
+.aaa{
+    background: linear-gradient(180deg  , #050534 , #111132);
+    align-items: center;
+    justify-content: center;
+    h3{
+        margin-left: 730px;
+        padding-top: 50px;
+    }
+}
+.tab{
+    color: rgb(216, 206, 206);
+    padding-left: 500px;
+
+    justify-content: space-between;
+    border: 10px solid rgb(9, 6, 49);
+    background-color: rgb(20, 7, 56);
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.b{
+  
+    td{
+        
+        padding: 10px;
+       padding-left: 0px;
+    }
+}
+.c{
+    border: 4px solid white;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+
+.d{
+    margin-left: 10px;
+}
